@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.nav-container {
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 15px 100px;
+	position: fixed;
+	width: 100%;
+}
+.nav-container a {
+	color: white;
+	text-decoration: none;
+	padding: 0 15px;
+	font-weight: 600;
+}
+.nav-container a:hover {
+	color: #1ed760;
+}
+.nav-container span {
+	color: white;
+}
+.nav-container img {
+	position: relative;
+	right: 600px;
+}
+
+/* Section One */
+.content {
+	background-color: rgba(255, 55, 0, 0.866);
+	display: flex;
+	justify-content: space-around;
+	min-height: 60vh;
+	padding-top: 100px;
+	flex-wrap: wrap;
+}
+.content img {
+	height: 50%;
+}
+.text {
+	padding: 50px;
+	width: 50%;
+}
+.text .title1 {
+	font-weight: 600;
+	font-size: 1.25rem;
+}
+.text .title2 {
+	font-size: 3rem;
+	font-weight: 700;
+	padding: 15px 0;
+}
+.text .content img {
+	height: 60%;
+}
+
+.text .description {
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+.text button {
+	margin: 25px 0;
+	padding: 25px 50px;
+	border: none;
+	border-radius: 50px;
+	background-color: black;
+	color: white;
+	font-weight: 500;
+	letter-spacing: 2px;
+	font-size: 1.1rem;
+}
+
+/* SECTION 2 */
+.pink-content {
+	background-color: rgb(225, 40, 136);
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	min-height: 60vh;
+	padding-top: 100px;
+	flex-wrap: wrap;
+}
+
+.pink-content img {
+	height: 50%;
+}
+.pink-content .text {
+	padding: 50px;
+	width: 50%;
+	color: rgb(229, 243, 252);
+}
+.pink-content .title1 {
+	font-weight: 600;
+	font-size: 1.25rem;
+	padding: 25px 0;
+}
+.pink-content .title2 {
+	font-size: 3rem;
+	font-weight: 700;
+	padding: 15px 0;
+}
+.pink-content .content img {
+	height: 60%;
+}
+
+.pink-content .description {
+	font-size: 1.25rem;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+.pink-content button {
+	margin: 25px 0;
+	padding: 25px 50px;
+	border: none;
+	border-radius: 50px;
+	background-color: rgb(229, 243, 252);
+	color: rgb(225, 40, 136);
+	font-weight: 500;
+	letter-spacing: 2px;
+	font-size: 1.1rem;
+}
+
+button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+/* SECTION 3 */
+#section3 {
+	padding-top: 80px;
+	background-image: url(/images/LiE_circles.svg);
+	background-size: auto 100%;
+	color: #1ed760;
+	background-color: #2d46b9;
+	background-position: right center;
+	background-repeat: no-repeat;
+	min-height: 606px;
+}
+
+.blue-content {
+	padding: 50px 100px;
+	flex-wrap: wrap;
+}
+.blue-content .title1 {
+	font-weight: 600;
+	font-size: 1.25rem;
+	padding: 25px 0;
+}
+.blue-content .title2 {
+	font-size: 3rem;
+	font-weight: 700;
+	padding: 15px 0;
+}
+
+.blue-content .description {
+	font-size: 1.25rem;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+.blue-content button {
+	margin: 25px 0;
+	padding: 25px 50px;
+	border: none;
+	border-radius: 50px;
+	background-color: #1ed760;
+	color: #2d46b9;
+	font-weight: 500;
+	letter-spacing: 2px;
+	font-size: 1.1rem;
+}
+
+/* FOOTER */
+footer {
+	background-color: black;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+.footer-container {
+	display: flex;
+}
+#left-box {
+	display: flex;
+	flex-direction: row;
+	margin-left: 200px;
+	padding-top: 50px;
+}
+h4 {
+	color: white;
+	text-decoration: underline;
+}
+.company {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 25px;
+	line-height: 25px;
+}
+
+.community {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 25px;
+	line-height: 25px;
+}
+
+.footer-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 25px;
+	line-height: 25px;
+}
+
+.right-box {
+	position: relative;
+	left: 250px;
+	top: 50px;
+}
+
+.footer-legal-links {
+	padding: 25px 0;
+}
+.footer-legal-links a {
+	padding: 20px 10px;
+}
+.row2 {
+	float: right;
+}
